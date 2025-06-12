@@ -1,1 +1,16 @@
-{}
+[
+  {
+    "id": "dbms-norm-001",
+    "question": "What is Database Normalization and why is it important?",
+    "answer": "Normalization is the process of organizing columns and tables in a relational database to minimize data redundancy. It's important because it reduces the risk of data anomalies, saves space, and simplifies data maintenance.",
+    "difficulty": "medium",
+    "tags": ["Normalization"]
+  },
+  {
+    "id": "dbms-sql-001",
+    "question": "What is the difference between DELETE, TRUNCATE, and DROP statements in SQL?",
+    "answer": "DELETE is a DML command that removes rows from a table based on a WHERE clause and can be rolled back. TRUNCATE is a DDL command that removes all rows from a table quickly and cannot be rolled back. DROP is a DDL command that completely removes the table structure and data.",
+    "difficulty": "medium",
+    "tags": ["SQL"]
+  }
+]

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MockView Pro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <nav class="sidebar">
+        <div class="sidebar-header">
+          <h2>MockView Pro 🤖</h2>
+          <div class="theme-switcher-container">
+            <label class="theme-switcher">
+              <input type="checkbox" id="theme-toggle" />
+              <span class="slider"></span>
+            </label>
+          </div>
+          <button id="speaker-toggle" class="speaker-toggle" title="Toggle Voice">🔊</button>
+        </div>
+        <div class="sidebar-content">
+                <div class="persona-selector">
+                    <h3>Select a Persona</h3>
+                    <div class="persona-options">
+                        <div class="persona-btn active" data-persona="Neutral">🧑‍💼 Neutral</div>
+                        <div class="persona-btn" data-persona="Friendly">🤝 Friendly</div>
+                        <div class="persona-btn" data-persona="Strict">🧐 Strict</div>
+                    </div>
+                </div>
+                <div class="custom-interview-creator">
+                    <h3>Custom Interview</h3>
+                    <textarea id="jd-input" placeholder="Paste a job description here..."></textarea>
+                    <button id="start-custom-btn">Start Custom Interview</button>
+                </div>
+
+                <h3 class="topic-divider">Or Select a Topic</h3>
+                <div id="topic-list" class="topic-list">
+      </nav>
+
+      <main class="main-content">
+        <div id="welcome-view" class="welcome-view">
+          <h1>Welcome to Your Personalized Interview Practice</h1>
+          <p>Select a topic from the left sidebar to begin.</p>
+        </div>
+
+        <div id="chat-view" class="chat-view hidden">
+          <div id="chat-window" class="chat-window"></div>
+          <div class="input-area-container">
+            <div id="input-area" class="input-area">
+                    <textarea id="answer-input" placeholder="Type your answer here..."></textarea>
+                    <button id="mic-btn" class="mic-btn" title="Record Voice Answer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 18.75a6 6 0 006-6v-1.5a6 6 0 00-12 0v1.5a6 6 0 006 6zM12 4.5a4.5 4.5 0 014.5 4.5v1.5a4.5 4.5 0 01-9 0v-1.5A4.5 4.5 0 0112 4.5z" /></svg>
+                    </button>
+                    <button id="submit-answer-btn" title="Submit Answer">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="action-buttons">
+              <button id="end-interview-btn">End Interview</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="summary-view" class="summary-view hidden"></div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

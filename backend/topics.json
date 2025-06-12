@@ -1,6 +1,7 @@
 {
-  "cpp": ["STL", "Memory", "Pointers"],
-  "dbms": ["Transactions", "Normalization"],
-  "os": ["Scheduling", "Paging"],
-  "dsa": ["Arrays", "Trees", "Graphs"]
+  "dsa": ["Arrays", "Trees", "Graphs", "Sorting"],
+  "cpp": ["STL", "Memory Management", "Pointers", "OOP"],
+  "dbms": ["Transactions", "Normalization", "SQL", "Indexing"],
+  "os": ["Scheduling", "Paging", "Concurrency", "File Systems"],
+  "system_design": ["Scalability", "Caching", "Databases", "API Design"]
 }

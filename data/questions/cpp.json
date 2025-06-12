@@ -1,8 +1,16 @@
 [
   {
-    "question": "What is the difference between vector and list in C++ STL?",
-    "answer": "Vector is contiguous, supports random access; list allows fast insertion/deletion but no random access.",
+    "id": "cpp-stl-001",
+    "question": "What is the difference between a vector and a list in the C++ STL?",
+    "answer": "A vector is a dynamic array storing elements in contiguous memory, allowing for fast random access. A list is a doubly-linked list, which allows for constant time insertion and deletion anywhere but does not support fast random access.",
     "difficulty": "medium",
     "tags": ["STL"]
+  },
+  {
+    "id": "cpp-mem-001",
+    "question": "Explain smart pointers in C++ and name a few types.",
+    "answer": "Smart pointers are objects that act like pointers but provide automatic memory management. They help prevent memory leaks by automatically deallocating memory when the pointer goes out of scope. Types include std::unique_ptr, std::shared_ptr, and std::weak_ptr.",
+    "difficulty": "hard",
+    "tags": ["Memory Management", "Pointers"]
   }
 ]

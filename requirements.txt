@@ -1,4 +1,13 @@
-flask
-openai
+# Web server framework
+Flask
+Flask-Cors
+WeasyPrint  # For generating PDFs
+
+# For loading environment variables from .env files
 python-dotenv
+
+# For Google Gemini API access
+google-generativeai
+
+# For running the unit tests
 pytest
