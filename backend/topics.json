@@ -1,0 +1,6 @@
+{
+  "cpp": ["STL", "Memory", "Pointers"],
+  "dbms": ["Transactions", "Normalization"],
+  "os": ["Scheduling", "Paging"],
+  "dsa": ["Arrays", "Trees", "Graphs"]
+}
