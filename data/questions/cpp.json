@@ -1,0 +1,8 @@
+[
+  {
+    "question": "What is the difference between vector and list in C++ STL?",
+    "answer": "Vector is contiguous, supports random access; list allows fast insertion/deletion but no random access.",
+    "difficulty": "medium",
+    "tags": ["STL"]
+  }
+]
